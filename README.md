@@ -4,7 +4,7 @@
 
 ## Installation
 
-Either manually download the project and then select `Import Project` or use `Import Remote Project` from the `File` menu.
+Manually download the project, unzip it and then select `Import Project` from the `File` menu.
 
 ## Requirements
 This project uses [opencsv](https://central.sonatype.com/artifact/com.opencsv/opencsv) to write the CSV Output file and [list-of-countries.txt](https://gist.github.com/dariusz-wozniak/656f2f9070b4205c5009716f05c94067#file-list-of-countries-txt) from
