@@ -1,4 +1,4 @@
-# Resouces
+# Resources
 
 This is the folder which is dynamically located by the project and the two files within are read. It is also the output folder for the project.
 
