@@ -1,0 +1,16 @@
+<project name="SOAP-API-Test" default="testreport" basedir=".">
+    <target name="run-soap">
+        <exec executable="C:\Program Files\SmartBear\SoapUI-5.7.2\bin\testrunner.bat">
+            <arg line="-j -f 'C:\Users\tiger\Documents\Code\SoapUI\SOAP-API-Test' 'C:\Users\tiger\Documents\Code\SoapUI\SOAP-API-Test\Country-SOAP-soapui-project.xml'" />
+        </exec>
+    </target>
+    <target name="testreport" depends="run-soap">
+        <junitreport>
+            <fileset dir="C:\Users\tiger\Documents\Code\SoapUI\SOAP-API-Test">
+                <include name="TEST-*.xml" />
+            </fileset>
+            <report todir="C:\Users\tiger\Documents\Code\SoapUI\SOAP-API-Test\HTML" styledir="C:\Libs\apache-ant-1.10.15\etc" format="noframes">
+            </report>
+        </junitreport>
+    </target>
+</project>
