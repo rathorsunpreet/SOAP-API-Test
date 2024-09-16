@@ -1,6 +1,6 @@
 <project name="SOAP-API-Test" default="testreport" basedir=".">
     <target name="run-soap">
-        <exec executable="<SOAPUI\testrunner.bat - location>">
+        <exec executable="<SOAPUI-folder\testrunner.bat>">
             <arg line="-j -f '<project-folder>' '<project-folder>\Country-SOAP-soapui-project.xml'" />
         </exec>
     </target>
@@ -9,7 +9,7 @@
             <fileset dir="<project-folder>">
                 <include name="TEST-*.xml" />
             </fileset>
-            <report todir="<project-folder>\HTML" styledir="C:\Libs\apache-ant-1.10.15\etc" format="noframes">
+            <report todir="<project-folder>\HTML" styledir="<Ant-folder>\etc" format="noframes">
             </report>
         </junitreport>
     </target>
