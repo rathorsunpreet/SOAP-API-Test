@@ -2,6 +2,8 @@
 
 [Countries SOAP API](http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL=) tested in SOAPUI Open Source Version. It involves groovy scripting for a data-driven test case which outputs a CSV file.
 
+Demo / Explanation Video: [https://www.youtube.com/watch?v=AeaR5Yi4O-M](https://www.youtube.com/watch?v=AeaR5Yi4O-M)
+
 ## Installation
 
 Manually download the project, unzip it and then select `Import Project` from the `File` menu.
